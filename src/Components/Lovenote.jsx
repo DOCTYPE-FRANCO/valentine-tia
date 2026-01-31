@@ -1,0 +1,21 @@
+function LoveNote() {
+  return (
+    <div className="text-center max-w-xl">
+      <h1 className="text-4xl font-bold mb-3">
+        Thea 💕
+      </h1>
+
+      <p className="text-lg leading-relaxed">
+        I made this little corner of the internet just for you 🥺💗  
+        Every smile, every laugh, every moment with you
+        makes my world brighter.
+      </p>
+
+      <p className="mt-4 text-base">
+        You’re my favorite person, today and always 💖
+      </p>
+    </div>
+  );
+}
+
+export default LoveNote;
