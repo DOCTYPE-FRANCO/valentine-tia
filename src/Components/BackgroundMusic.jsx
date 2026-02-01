@@ -24,7 +24,7 @@ function BackgroundMusic() {
   return (
     <>
       <audio ref={audioRef} loop preload="auto">
-        <source src="/dynamite.mp3" type="audio/mpeg" />
+        <source src="/TwoBirds.mp3" type="audio/mpeg" />
       </audio>
 
       <button
