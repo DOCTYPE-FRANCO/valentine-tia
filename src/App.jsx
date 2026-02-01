@@ -11,6 +11,7 @@ function App() {
         <LoveNote />
         <Countdown />
       </div>
+      
     </div>
   );
 }
