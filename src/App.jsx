@@ -1,4 +1,4 @@
-import LoveNote from "./Components/LoveNote";
+import LoveNote from "./Components/Lovenote";
 import Countdown from "./Components/Countdown";
 import BackgroundMusic from "./Components/BackgroundMusic";
 
