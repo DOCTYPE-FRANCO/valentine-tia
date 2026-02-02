@@ -123,7 +123,7 @@ function Countdown() {
                 transition={{ duration: 0.4, type: "spring" }}
                 className="pt-3 flex flex-col items-center justify-center fixed w-[400px] h-[630px] md:w-[870px] md:h-[520px] bg-white backdrop-blur-2xl top-2 md:top-1/2 left-1/2 -translate-x-1/2 md:-translate-y-1/2 p-1 rounded-md z-50 overflow-hidden"
               >
-                <p className="text-3xl font-bold">GALLERY </p>
+                <p className="text-3xl font-extrabold">GALLERY </p>
                 {/* Continuous Confetti */}
                 {confetti.map((piece) => (
                   <motion.div
