@@ -22,7 +22,7 @@ function BackgroundMusic() {
   };
 
   return (
-    <>
+    <div className="z-40">
       <audio ref={audioRef} loop preload="auto">
         <source src="/TwoBirds.mp3" type="audio/mpeg" />
       </audio>
@@ -33,7 +33,7 @@ function BackgroundMusic() {
       >
         {playing ? "⏸ Pause Music" : "▶️ Play Music"}
       </button>
-    </>
+    </div>
   );
 }
 
