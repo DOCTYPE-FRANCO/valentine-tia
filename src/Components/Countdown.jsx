@@ -16,6 +16,8 @@ import pink2 from "../assets/pink2.jpeg"
 import purple from "../assets/purple.jpeg"
 import soft from "../assets/soft.jpeg"
 import cls from "../assets/class.jpeg"
+import slush from "../assets/slush.jpeg"
+import yellow from "../assets/yellow.jpeg"
 import white from "../assets/white.jpeg"
 import white2 from "../assets/white2.jpeg"
 import whitediff from "../assets/whitediff.jpeg"
@@ -196,6 +198,14 @@ function Countdown() {
 
                       <SwiperSlide>
                         <img src={cute} alt="" onClick={() => setSelectedPic(cute)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                      </SwiperSlide>
+
+                      <SwiperSlide>
+                        <img src={slush} alt="" onClick={() => setSelectedPic(slush)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                      </SwiperSlide>
+
+                      <SwiperSlide>
+                        <img src={yellow} alt="" onClick={() => setSelectedPic(yellow)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
