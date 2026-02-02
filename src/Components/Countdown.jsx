@@ -19,7 +19,7 @@ import cls from "../assets/class.jpeg"
 import white from "../assets/white.jpeg"
 import white2 from "../assets/white2.jpeg"
 import whitediff from "../assets/whitediff.jpeg"
-import vid from "../assets/vid.mp4"
+
 
 function Countdown() {
   const [suprise, setSuprise] = useState(false);
@@ -222,9 +222,7 @@ function Countdown() {
                         <img src={white2} alt="" onClick={() => setSelectedPic(white2)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
-                      <SwiperSlide>
-                        <video src={vid} controls className="w-full h-[300px] object-cover rounded-2xl" />
-                      </SwiperSlide>
+                      
                     </Swiper>
                   </div>
 
