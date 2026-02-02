@@ -1,6 +1,6 @@
-import LoveNote from "./Components/LoveNote.jsx";
-import Countdown from "./Components/Countdown.jsx";
-import BackgroundMusic from "./Components/BackgroundMusic.jsx";
+import LoveNote from "./components/LoveNote.jsx";
+import Countdown from "./components/Countdown.jsx";
+import BackgroundMusic from "./components/BackgroundMusic.jsx";
 
 function App () {
   return (
