@@ -1,4 +1,4 @@
-import LoveNote from "./components/LoveNote.jsx";
+import Lovenote from "./components/Lovenote.jsx";
 import Countdown from "./components/Countdown.jsx";
 import BackgroundMusic from "./components/BackgroundMusic.jsx";
 
@@ -8,7 +8,7 @@ function App () {
       <BackgroundMusic />
 
       <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-10 shadow-2xl max-w-2xl w-full top-0">
-        <LoveNote />
+        <Lovenote />
         <Countdown />
       </div>
       

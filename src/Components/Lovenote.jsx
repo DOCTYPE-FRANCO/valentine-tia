@@ -1,4 +1,4 @@
-function LoveNote() {
+function Lovenote() {
   return (
     <div className="text-center max-w-xl">
       <h1 className="text-4xl font-bold mb-3">
@@ -18,4 +18,4 @@ function LoveNote() {
   );
 }
 
-export default LoveNote;
+export default Lovenote;
