@@ -177,59 +177,59 @@ function Countdown() {
                       className="mySwiper w-full max-w-6xl"
                     >
                       <SwiperSlide>
-                        <img src={cool} alt="" onClick={() => setSelectedPic(cool)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy" src={cool} alt="" onClick={() => setSelectedPic(cool)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={nice} alt="" onClick={() => setSelectedPic(nice)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={nice} alt="" onClick={() => setSelectedPic(nice)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={soft} alt="" onClick={() => setSelectedPic(soft)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={soft} alt="" onClick={() => setSelectedPic(soft)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={cls} alt="" onClick={() => setSelectedPic(cls)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={cls} alt="" onClick={() => setSelectedPic(cls)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={comb} alt="" onClick={() => setSelectedPic(comb)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={comb} alt="" onClick={() => setSelectedPic(comb)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={cute} alt="" onClick={() => setSelectedPic(cute)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={cute} alt="" onClick={() => setSelectedPic(cute)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={slush} alt="" onClick={() => setSelectedPic(slush)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={slush} alt="" onClick={() => setSelectedPic(slush)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={yellow} alt="" onClick={() => setSelectedPic(yellow)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={yellow} alt="" onClick={() => setSelectedPic(yellow)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={pink} alt="" onClick={() => setSelectedPic(pink)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={pink} alt="" onClick={() => setSelectedPic(pink)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={white} alt="" onClick={() => setSelectedPic(white)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={white} alt="" onClick={() => setSelectedPic(white)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={pink2} alt="" onClick={() => setSelectedPic(pink2)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={pink2} alt="" onClick={() => setSelectedPic(pink2)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={whitediff} alt="" onClick={() => setSelectedPic(whitediff)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={whitediff} alt="" onClick={() => setSelectedPic(whitediff)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={purple} alt="" onClick={() => setSelectedPic(purple)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={purple} alt="" onClick={() => setSelectedPic(purple)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       <SwiperSlide>
-                        <img src={white2} alt="" onClick={() => setSelectedPic(white2)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
+                        <img loading="lazy"  src={white2} alt="" onClick={() => setSelectedPic(white2)} className="w-full h-[300px] object-cover rounded-2xl cursor-pointer" />
                       </SwiperSlide>
 
                       
