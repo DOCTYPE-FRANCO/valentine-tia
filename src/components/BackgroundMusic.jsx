@@ -29,7 +29,7 @@ function BackgroundMusic() {
 
       <button
         onClick={toggleMusic}
-        className="fixed bottom-6 right-6 bg-white/30 backdrop-blur-lg px-9 py-3 md:px-4 md:py-2 rounded-full shadow-lg text-2xl md:text-sm hover:scale-105 transition"
+        className="fixed bottom-6 right-6 bg-white/30 backdrop-blur-lg px-3 py-2 md:px-4 md:py-2  rounded-full shadow-lg  md:text-2xl hover:scale-105 transition"
       >
         {playing ? "⏸ Pause Music" : "▶️ Play Music"}
       </button>
