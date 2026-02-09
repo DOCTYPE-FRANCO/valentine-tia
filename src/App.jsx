@@ -7,7 +7,7 @@ function App () {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-pink-200 via-pink-300 to-rose-400 text-gray-500 px-4">
       <BackgroundMusic />
 
-      <div className="bg-white/80 backdrop-blur-xl rounded-3xl p-10 py-2 shadow-2xl max-w-2xl w-full top-0">
+      <div className="bg-white/80 backdrop-blur-xl rounded-3xl px-10 py-5 shadow-2xl max-w-2xl w-full top-0">
         <Lovenote />
         <Countdown />
       </div>
