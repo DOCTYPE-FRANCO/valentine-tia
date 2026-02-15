@@ -38,7 +38,7 @@ function Countdown() {
     return new Date(`${year}-02-16T00:00:00`);
   };
 
-  const birthday = new Date(Date.now()); //  getNextBirthday(); // 
+  const birthday =  getNextBirthday(); // new Date(Date.now()); //  
 
   const getTimeLeft = () => {
     const diff = birthday - new Date();
@@ -91,11 +91,12 @@ function Countdown() {
     }
   }, [suprise]);
 
+  
   if (!timeLeft) {
     return (
       <div className="flex flex-col justify-center items-center gap-7">
         <h2 className="text-center text-3xl font-bold mt-6">
-          Happy Birthday Oluchi 🎂💖
+          HAPPY BIRTHDAY LOVE💖
         </h2>
 
         <button
@@ -125,8 +126,11 @@ function Countdown() {
                 transition={{ duration: 0.4, type: "spring" }}
                 className="pt-3 flex flex-col items-center justify-center fixed w-[350px] h-[630px] md:w-[870px] md:h-[520px] bg-white backdrop-blur-2xl top-0 md:top-1/2 left-1/2 -translate-x-1/2 md:-translate-y-1/2 p-1 rounded-md z-50 overflow-hidden"
               >
-                <p className="text-3xl font-extrabold">GALLERY </p>
-                {/* Continuous Confetti */}
+                <div className="gap-4">
+                  <p className="text-center text-3xl font-extrabold">GALLERY </p>
+                  <p className="text-sm font-extrabold">[   They're Lilies btw :)   ] </p>
+                </div>
+                {/* Continuous Lilies */}
                 {confetti.map((piece) => (
                   <motion.div
                     key={piece.id}
@@ -141,12 +145,13 @@ function Countdown() {
                       delay: piece.delay,
                       ease: "easeIn",
                     }}
-                    className="top-0 absolute w-3 h-3 rounded-sm pointer-events-none z-[1]"
+                    className="top-0 absolute text-2xl pointer-events-none z-[1]"
                     style={{
-                      backgroundColor: piece.color,
                       left: `${piece.x}%`,
                     }}
-                  />
+                  >
+                    🌸
+                  </motion.div>
                 ))}
 
                 {/* HEADER */}

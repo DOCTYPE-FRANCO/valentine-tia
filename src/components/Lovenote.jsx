@@ -11,6 +11,10 @@ function Lovenote() {
         makes my world brighter.
       </p>
 
+      <p className="mt-4 text-lg leading-relaxed">
+          The little issues we had were hurting, but just so you know <br></br>'I TOO LOVE YOU'  (<i>Pidgin</i>)
+      </p>
+
       <p className="mt-4 text-base">
         You’re my favorite person, today and always 💖
       </p>
