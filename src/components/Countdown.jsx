@@ -102,7 +102,7 @@ function Countdown() {
           onClick={() => setSuprise(true)}
           className="hover:scale-110 hover:bg-gray-800 transition-all duration-700 text-sm w-[150px] bg-gray-800/60 font-extrabold text-white rounded-md p-3"
         >
-          CLICK HERE FOR SUPRISE
+          IT'S A BUTTON, CLICK IT :)
         </button>
 
         <AnimatePresence mode="wait">
