@@ -38,7 +38,7 @@ function Countdown() {
     return new Date(`${year}-02-16T00:00:00`);
   };
 
-  const birthday =  getNextBirthday(); // new Date(Date.now()); //  
+  const birthday = new Date(Date.now()); //   getNextBirthday(); //  
 
   const getTimeLeft = () => {
     const diff = birthday - new Date();
