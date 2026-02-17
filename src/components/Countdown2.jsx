@@ -96,14 +96,14 @@ function Countdown() {
     return (
       <div className="flex flex-col justify-center items-center gap-7">
         <h2 className="text-center text-3xl font-bold mt-6">
-          HAPPY BIRTHDAY LOVE💖
+          GALLERY
         </h2>
 
         <button
           onClick={() => setSuprise(true)}
           className="hover:scale-110 hover:bg-gray-800 transition-all duration-700 text-sm w-[150px] bg-gray-800/60 font-extrabold text-white rounded-md p-3"
         >
-          IT'S A BUTTON, CLICK IT :)
+          CLICK TO ACCESS GALLERY:)
         </button>
 
         <AnimatePresence mode="wait">
